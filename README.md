@@ -1,0 +1,3 @@
+#This is a Project made myself!
+
+In this repository I would commit my projects that I coded myself...
