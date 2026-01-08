@@ -36,9 +36,11 @@ resetBtn.addEventListener("click",()=>{
 boxes.forEach((box) =>{
     box.addEventListener("click",()=>{
         if(turnO){
+            box.style.color="red";
             box.innerText='X';
             turnO=false;
         }else{
+            box.style.color="blue";
             box.innerText='O';
             turnO=true;
         }
@@ -54,6 +56,11 @@ const disabledAllBtn=()=>{
 }
 
 const showWinner=(winner)=>{
+    if(winner==="X"){
+        msg.style.color="red";
+    }else{
+        msg.style.color="blue";
+    }
     msg.innerText="Congratulation, Winner is "+winner;
     msgContainer.classList.remove("hide");
 }
