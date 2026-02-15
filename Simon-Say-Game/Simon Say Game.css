@@ -4,7 +4,7 @@
 
 body{
     text-align: center;
-
+    background-color: whitesmoke;
 }
 
 h1{
@@ -96,7 +96,7 @@ h2{
     padding: 1rem;
     font-size: 1.25rem;
     background-color: rgb(12, 11, 11);
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 1rem;
     border: none;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
@@ -116,110 +116,5 @@ h2{
         height: 29vmin;
         width: 29vmin;
         margin: 1rem 0.5rem;
-    }
-}
-/* ipad */
-@media (min-width:720px){
-    body{
-        margin: 18vmin 10vmin 0 10vmin;
-    }
-    h1{
-        font-size: 4rem;
-    }
-    h2{
-        position: relative;
-        top: 10px;
-        font-size: 1.9rem;
-    }
-    .btn{
-        height: 29vmin;
-        width: 29vmin;
-        margin: 4rem 0.5rem;
-    }
-    #new-game{
-        margin: 0;
-        position:relative;
-        top: 15px;
-        height: 6rem;
-        width: 15rem;
-        font-size: 2rem;
-    }
-    #reset-btn{
-        margin: 0;
-        position:relative;
-        top: 15px;
-        height: 6rem;
-        width: 15rem;
-        font-size: 2rem;
-    }
-}
-
-/* laptop */
-@media (min-width:1024px){
-    body{
-        margin: 18vmin 10vmin 0 10vmin;
-    }
-    h1{
-        font-size: 4rem;
-    }
-    h2{
-        position: relative;
-        top: 10px;
-        font-size: 1.9rem;
-    }
-    .btn{
-        height: 29vmin;
-        width: 29vmin;
-        margin: 4rem 0.5rem;
-    }
-    #new-game{
-        margin: 0;
-        position:relative;
-        top: 15px;
-        height: 6rem;
-        width: 15rem;
-        font-size: 2rem;
-    }
-    #reset-btn{
-        margin: 0;
-        position:relative;
-        top: 15px;
-        height: 6rem;
-        width: 15rem;
-        font-size: 2rem;
-    }
-
-}
-
-@media (orientation: landscape) {
-    *{
-        margin:0;
-        padding: 0;
-        font-size: 1rem;
-    }
-    h1{
-        margin:0.75rem 0 0.5rem 0;
-        font-size: 1.5rem;
-    }
-    h2{
-        margin:0.25rem 0 0.5rem 0;
-    }
-    .container{
-        margin:0;
-    }
-    .btn{
-        height: 5rem;
-        width: 7rem;
-        border: 3px solid black
-    }
-    #new-game{
-        margin: 0;
-        position:relative;
-        top: 9px;
-    }
-    #reset-btn{
-        margin: 0;
-        position:relative;
-        top: 9px;
     }
 }
